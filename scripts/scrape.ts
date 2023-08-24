@@ -4,7 +4,7 @@ import * as cheerio from "cheerio";
 import fs from "fs";
 import { encode } from "gpt-3-encoder";
 
-const BASE_URL = "http://www.paulgraham.com/";
+const BASE_URL = "https://absoltech.vn/";//"http://www.paulgraham.com/";
 const CHUNK_SIZE = 200;
 
 const getLinks = async () => {

@@ -11,18 +11,18 @@ export const Footer: FC = () => {
       </div>
 
       <div className="flex space-x-4">
-        <a
+        {/* <a
           className="flex items-center hover:opacity-50"
-          href="https://twitter.com/mckaywrigley"
+          href="https://twitter.com"
           target="_blank"
           rel="noreferrer"
         >
           <IconBrandTwitter size={24} />
-        </a>
+        </a> */}
 
         <a
           className="flex items-center hover:opacity-50"
-          href="https://github.com/mckaywrigley/paul-graham-gpt"
+          href="https://github.com/quvinh/demo.chat-and-search.ai"
           target="_blank"
           rel="noreferrer"
         >

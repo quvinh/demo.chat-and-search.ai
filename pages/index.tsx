@@ -226,7 +226,7 @@ export default function Home() {
             {showSettings && (
               <div className="w-[340px] sm:w-[400px]">
                 <div>
-                  <div>Mode</div>
+                  <div>Chế độ</div>
                   <select
                     className="max-w-[400px] block w-full cursor-pointer rounded-md border border-gray-300 p-2 text-black shadow-sm focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 sm:text-sm"
                     value={mode}
@@ -234,13 +234,13 @@ export default function Home() {
                       setMode(e.target.value as "search" | "chat")
                     }
                   >
-                    <option value="search">Search</option>
-                    <option value="chat">Chat</option>
+                    <option value="search">Tra cứu</option>
+                    <option value="chat">Chatbot</option>
                   </select>
                 </div>
 
                 <div className="mt-2">
-                  <div>Passage Count</div>
+                  <div>Số đoạn văn hiển thị</div>
                   <input
                     type="number"
                     min={1}

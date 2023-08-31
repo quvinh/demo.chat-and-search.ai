@@ -15,6 +15,17 @@ export const Navbar: FC = () => {
       <div>
         <a
           className="flex items-center hover:opacity-50"
+          href="/data"
+        >
+          <div className="hidden sm:flex">Data</div>
+
+          <IconExternalLink
+            className="ml-1"
+            size={20}
+          />
+        </a>
+        <a
+          className="flex items-center hover:opacity-50"
           href="https://absoltech.vn/"
           target="_blank"
           rel="noreferrer"
